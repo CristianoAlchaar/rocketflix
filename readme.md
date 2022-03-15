@@ -6,7 +6,7 @@ Nesse projeto o objetivo é consumir uma api e exibir em um frontend.
 
 ---
 
-![Rocketflix.jpg](./.github/rocketflix.jpg)
+![Rocketflix.jpg](./.github/rocketflix.gif)
 
 Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir um filme aleatório sempre que clicar em Encontrar Filme utilizando um template determnado.
 
