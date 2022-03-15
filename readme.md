@@ -39,8 +39,10 @@ Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 - Se precisar de mais informações, consultar o [Notion](https://www.notion.so/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d). 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
-  <img alt="rocketflix" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
-  <img alt="rocketflix" title="#rocketflix" src="./.github/rocketflix-2.png" width="400px"> 
+  <img alt="rocketflix tela inicial" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
+  <img alt="rocketflix tela resultado" title="#rocketflix" src="./.github/rocketflix-2.png" width="400px"> 
+  <img alt="rocketflix tela não encontrado" title="#rocketflix" src="./.github/rocketflix-3.jpg" width="400px"> 
+  <img alt="rocketflix mobile" title="#rocketflix" src="./.github/rocketflix-4.png" width="400px"> 
 </p> 
 
 ### 🚀 Techs
