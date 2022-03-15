@@ -57,25 +57,25 @@ Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
 ---
 
-- [ ] Criar uma conta no [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
+- [x] Criar uma conta no [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
 
-- [ ] Após verificar o e-mail, faça o login e [acesse este link](https://www.themoviedb.org/settings/api/request)
+- [x] Após verificar o e-mail, faça o login e [acesse este link](https://www.themoviedb.org/settings/api/request)
 
-- [ ] Clicar em Criar e escolha a opção Developer
+- [x] Clicar em Criar e escolha a opção Developer
 
 ![criar](/.github/criar.png)
 
-- [ ] Aceitar os termos de uso da API
+- [x] Aceitar os termos de uso da API
 
-- [ ] Preencher os dados necessários e clique em Enviar.
+- [x] Preencher os dados necessários e clique em Enviar.
 
 ![preencher](/.github/preencher.png)
 
-- [ ] Após clicar em enviar você terá acesso a sua API Key
+- [x] Após clicar em enviar você terá acesso a sua API Key
 
 ![api-key](/.github/api-key.png)
 
-- [ ] Após baixar o template terá um arquivo chamado `api.example`, cole a sua API KEY gerada no arquivo e renomeie o arquivo para `api.js`
+- [x] Após baixar o template terá um arquivo chamado `api.example`, cole a sua API KEY gerada no arquivo e renomeie o arquivo para `api.js`
 
 - [ ] Adicionar a lógica do desafio no arquivo `main.js`
 
