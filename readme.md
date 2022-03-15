@@ -106,9 +106,9 @@ Para construir esse projeto, na trilha Discover há diversas referências que ir
 
 E também, há esses vídeos que podem ajudar
 
-- [https://youtu.be/vYlz3SmNXQQ](https://youtu.be/vYlz3SmNXQQ)
-- [https://youtu.be/UftSB4DaRU4](https://youtu.be/UftSB4DaRU4)
-- [https://youtu.be/VM4e37DaskU](https://youtu.be/VM4e37DaskU)
+- [API ajax fetch axios](https://youtu.be/vYlz3SmNXQQ)
+- [O DOM é um objeto js](https://youtu.be/UftSB4DaRU4)
+- [Consumir api com axios](https://youtu.be/VM4e37DaskU)
 
 ---
 
