@@ -40,9 +40,9 @@ Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
   <img alt="rocketflix tela inicial" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
-  <img alt="rocketflix tela resultado" title="#rocketflix" src="./.github/rocketflix-2.png" width="400px"> 
+  <img alt="rocketflix tela resultado" title="#rocketflix" src="./.github/rocketflix-2.jpg" width="400px"> 
   <img alt="rocketflix tela não encontrado" title="#rocketflix" src="./.github/rocketflix-3.jpg" width="400px"> 
-  <img alt="rocketflix mobile" title="#rocketflix" src="./.github/rocketflix-4.png" width="400px"> 
+  <img alt="rocketflix mobile" title="#rocketflix" src="./.github/rocketflix-4.jpg" width="400px"> 
 </p> 
 
 ### 🚀 Techs
