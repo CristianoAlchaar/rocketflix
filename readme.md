@@ -14,7 +14,8 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 
 ---
 
-- Cores 
+**Cores** 
+
 ```css
 :root {
   --title: #fffcf9;
@@ -24,11 +25,11 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 }
 ```
 
-- Fonte
+**Fonte**
 
-font-family: Poppins 
-font-weight: 300, 400 e 500
-Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
+- font-family: Poppins 
+- font-weight: 300, 400 e 500
+- Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
 
 ### 🚀 Layout
 
