@@ -34,11 +34,9 @@ Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
 ---
 
-![Animação.gif](./.github/animacao.gif)
-- Consultar o layout do projeto no [figma](https://www.figma.com/file/9HFoO4wNB150gRSV4v0Qse/DD-%2F-Rocketflix/duplicate).
-- Consultar os detalhes no [Notion](https://www.notion.so/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d) para atender os requisitos. 
-- Utilizar os assets em `src/assets`
-- Atender o layout demonstrado no Figma.
+- Consultar e atender o layout do projeto no [Figma](https://www.figma.com/file/9HFoO4wNB150gRSV4v0Qse/DD-%2F-Rocketflix/duplicate).
+- Utilizar os assets em `src/assets` para os detalhes do layout.
+- Se precisar de mais informações, consultar o [Notion](https://www.notion.so/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d). 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
   <img alt="rocketflix" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
