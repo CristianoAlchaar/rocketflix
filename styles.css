@@ -60,10 +60,14 @@ body{
 
 .box-movies .div-poster{
     margin: 3px;
-    padding: 5px;
-    background-image: url("./assets/imgage.jpg");    
+    padding: 5px;  
     height: 244px;   
     width: 30%;    
+}
+
+.box-movies .div-poster img{
+    height: 244px;   
+    width: 171px;  
 }
 
 .box-movies .div-box{
@@ -73,8 +77,8 @@ body{
 }
 
 .box-movies .div-box .div-title{
-    margin: 3px;
-    padding: 5px;
+    margin: 0px 3px 3px 3px;
+    padding: 0px 5px 5px 5px;
     font-size: 20px;
     font-weight: bold;
 }

@@ -22,7 +22,10 @@ function createMov(movie){
 
         const div_poster = document.createElement('div')
         div_poster.setAttribute('class', 'div-poster')
-        div_poster.innerText = movie.poster_path
+        const img_poster = document.createElement('img')
+        img_poster.setAttribute('src', `https://image.tmdb.org/t/p/w500${movie.poster_path}`)
+
+        div_poster.appendChild(img_poster)
 
         const div_box = document.createElement('div')
         div_box.setAttribute('class', 'div-box')      

@@ -83,7 +83,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 
 **Requisitos para o desafio:**
 
-- [ ] Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
+- [x] Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
 - [ ] Ter um botão que traga um filme aleatório com poster e descrição do filme.
 - [ ] Se o filme não existir, apresente uma mensagem e imagem informando que o filme não está disponível.
 
