@@ -1,9 +1,46 @@
-.instrucao p{
-    font-size: 14px;
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --tx-button: #000000;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+  
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--background);
+}
+
+.container{
+    width: 630px;
+}
+
+.logo{
+    width: 88px;
+    height: 63px;
+}
+
+.slogan p{
+    color: var(--title);
+}
+
+.box-movies{
+    color: var(--title);
 }
 
 .botao {
     width: 180px;
     height: 40px;
-    background-color: #E9E6E3;
+    background: var(--bg-button);
+    color: var(--tx-button);
+}
+
+.instrucao p{
+    color: var(--title);
+    width: 381px;
+    height: 42px;
 }
