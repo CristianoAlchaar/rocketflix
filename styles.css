@@ -1,0 +1,9 @@
+.instrucao p{
+    font-size: 14px;
+}
+
+.botao {
+    width: 180px;
+    height: 40px;
+    background-color: #E9E6E3;
+}

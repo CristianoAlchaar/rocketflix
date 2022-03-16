@@ -69,6 +69,17 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 ![api-key](/.github/api-key.png)
 - [x] Após baixar o template terá um arquivo chamado `api.example`, cole a sua API KEY gerada no arquivo e renomeie o arquivo para `api.js`
 - [x] Adicionar a lógica do desafio no arquivo `main.js`
+- [x] Informações da API: data.results
+````javascript
+    /**
+     * original_title: "Blacklight"
+     * title: "Spider-Man: No Way Home"
+     * overview: "Travis Block is a shadowy Government agent who specializes in removing operatives whose covers have been exposed. He then has to uncover a deadly conspiracy within his own ranks that reaches the highest echelons of power."
+     * popularity: 13287.383
+     * poster_path: "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+     * backdrop_path: "/isBUqT3hGKvzIoiGcVzURh1EdvQ.jpg"
+     */
+````
 
 **Requisitos para o desafio:**
 

@@ -15,7 +15,6 @@ const config = {
     Token de Leitura da API (v4 auth)
     eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZTM5NTAzMThiZjQxMmUxMTI3MmYyZjU4YzE0ZTA2MiIsInN1YiI6IjYyMDI3MTI4ZTI0ZTNhMDAyMDQxZGY2YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.f9GBTuzeyehxbSk5QJluMqpr69F3HFsZmgQRXmzMMdI
 
-    https://api.themoviedb.org/3/movie/550?api_key=0e3950318bf412e11272f2f58c14e062
 */
 
 function getApi(url_themoviesdborg){
@@ -29,10 +28,26 @@ function getApi(url_themoviesdborg){
 
 function createMov(movie){
 
-    const div_project_cards = document.createElement('div')
+    const div_cards = document.createElement('div')
+
+        const div_poster = document.createElement('div')
+        div_poster.innerText = movie.poster_path
+    
+        const div_title = document.createElement('div')
+        div_title.innerText = movie.title
+
+        const div_description = document.createElement('div')
+        div_description.innerText = movie.overview
+
+
+    
+    div_cards.appendChild(div_poster)
+    div_cards.appendChild(div_title)
+    div_cards.appendChild(div_description)
+
     console.log(movie)
 
-    return div_project_cards
+    return div_cards
 
 }
 
