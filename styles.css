@@ -17,15 +17,30 @@ body{
 
 .container{
     width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.topo .logo{
+    width: 88px;
+    height: 63px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.logo{
+.topo .logo img{
     width: 88px;
     height: 63px;
 }
 
-.slogan p{
+.topo .slogan p{
     color: var(--title);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box-movies{
@@ -33,14 +48,32 @@ body{
 }
 
 .botao {
-    width: 180px;
-    height: 40px;
+    width: 181px;
+    height: 47px;
     background: var(--bg-button);
     color: var(--tx-button);
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao img {
+    width: 36px;
+    height: 26px;
+}
+
+.botao .click {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .instrucao p{
     color: var(--title);
     width: 381px;
     height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
 }
