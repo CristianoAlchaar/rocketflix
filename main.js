@@ -16,26 +16,35 @@ function getApi(url_themoviesdborg){
 
 function createMov(movie){
 
+
     const div_cards = document.createElement('div')
 
         const div_poster = document.createElement('div')
+        div_poster.setAttribute('class', 'div-poster')
         div_poster.innerText = movie.poster_path
-    
-        const div_title = document.createElement('div')
-        div_title.innerText = movie.title
 
-        const div_description = document.createElement('div')
-        div_description.innerText = movie.overview
+        const div_box = document.createElement('div')
+        div_box.setAttribute('class', 'div-box')      
+    
+            const div_title = document.createElement('div')
+            div_title.setAttribute('class', 'div-title')
+            div_title.innerText = movie.title
+
+            const div_description = document.createElement('div')
+            div_description.setAttribute('class', 'div-description')
+            div_description.innerText = movie.overview
+
+        div_box.appendChild(div_title)
+        div_box.appendChild(div_description)
 
     div_cards.appendChild(div_poster)
-    div_cards.appendChild(div_title)
-    div_cards.appendChild(div_description)
+    div_cards.appendChild(div_box)
 
     return div_cards
 
 }
 
-function main(){
+function myMain(){
 
     const maxPage = 500
     const maxMovie = 19
@@ -55,4 +64,4 @@ function main(){
     
 }
 
-main()
+myMain()

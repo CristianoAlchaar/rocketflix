@@ -16,15 +16,16 @@ body{
 }
 
 .container{
-    width: 630px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 } 
 
 .topo .logo{
     width: 88px;
     height: 63px;
-    margin-top: 125px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,27 +46,74 @@ body{
 
 .box-movies{
     color: var(--title);
+    margin: 3px;
+    padding: 5px;    
+}
+
+.box-movies .div-poster{
+    margin: 3px;
+    padding: 5px;
+    background-image: url("./assets/imgage.jpg");
+    width: 171px;
+    height: 244px;
+}
+
+.box-movies .div-box{
+    margin: 3px;
+    padding: 5px;    
+    width: 60%;
+}
+
+.box-movies .div-box .div-title{
+    margin: 3px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-movies .div-box .div-description{
+    margin: 3px;
+    padding: 5px;
 }
 
 .botao {
-    width: 181px;
+    width: 171px;
     height: 47px;
     background: var(--bg-button);
-    color: var(--tx-button);
-    
+    color: var(--tx-button);    
+    margin-top: 30px;
+    margin-bottom: 26px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.botao:hover{
+    cursor: pointer;
 }
 
 .botao img {
     width: 36px;
     height: 26px;
+    position: absolute;
+    top: 50%;
+    margin-right: 50%;
+    transform: translate(50%, -50%);
 }
 
-.botao .click {
+.botao .textclick {
     font-size: 12px;
     font-weight: bold;
-}
+    text-align: center;
+    margin-left: 10px;
+    
+    position: absolute;
+    top: 50%;
+    margin-right: 20%;
+    transform: translate(50%, -50%)
+} 
 
 .instrucao p{
     color: var(--title);
