@@ -18,6 +18,7 @@ function createMov(movie){
 
 
     const div_cards = document.createElement('div')
+    div_cards.setAttribute('class', 'div-details')
 
         const div_poster = document.createElement('div')
         div_poster.setAttribute('class', 'div-poster')

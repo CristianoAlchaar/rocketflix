@@ -47,15 +47,23 @@ body{
 .box-movies{
     color: var(--title);
     margin: 3px;
-    padding: 5px;    
+    padding: 5px;
+}
+
+.div-details {
+    display: flex;
+    justify-content: space-between;  
+    gap: 1rem; 
+    margin-right: 3.5rem;
+    flex-wrap: wrap;
 }
 
 .box-movies .div-poster{
     margin: 3px;
     padding: 5px;
-    background-image: url("./assets/imgage.jpg");
-    width: 171px;
-    height: 244px;
+    background-image: url("./assets/imgage.jpg");    
+    height: 244px;   
+    width: 30%;    
 }
 
 .box-movies .div-box{
