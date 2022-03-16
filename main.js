@@ -50,6 +50,8 @@ function createMov(movie){
 
 function myMain(){
 
+    console.log("oi")
+
     const maxPage = 500
     const maxMovie = 19
 
@@ -69,3 +71,11 @@ function myMain(){
 }
 
 myMain()
+
+function myFunction()
+{
+    var x = document.getElementById("botao");
+    
+    x.onclick().myMain()
+
+}
