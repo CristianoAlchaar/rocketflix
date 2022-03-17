@@ -66,8 +66,10 @@ function myMain(){
     
 }
 
+myMain()
+
 let btn_encontrar = document.getElementById("botao");
   
-btn_encontrar.addEventListener("click", () => {
-    myMain()
-})
+btn_encontrar.onclick = () => {
+    location.reload();
+};
