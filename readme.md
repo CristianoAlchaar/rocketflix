@@ -69,7 +69,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 ![api-key](/.github/api-key.png)
 - [x] Após baixar o template terá um arquivo chamado `api.example`, cole a sua API KEY gerada no arquivo e renomeie o arquivo para `api.js`
 - [x] Adicionar a lógica do desafio no arquivo `main.js`
-- [x] Informações da API: data.results
+- [x] Informações de interesse da API: data.results
 ````javascript
     /**
      * original_title: "Blacklight"
@@ -91,7 +91,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 
 - [ ] Tornando o site responsivo
 - [ ] Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
-- [ ] Corrigir warning Uncaught ( in promise )
+- [ ] Corrigir warning: `Uncaught (in promise)`
 
 🚀 Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
