@@ -47,7 +47,8 @@ function createMov(movie){
 
 }
 
-function myMain(){
+function myMain(string){
+    console.log(string)
     const maxPage = 500
     const maxMovie = 19
 
@@ -60,16 +61,14 @@ function myMain(){
     let box = JSON.parse(data)
     let movies = box.results
     let div_box_movies = document.getElementById('movies')
- 
+
+    let div_one_movie = document.getElementsByClassName('div-details')
+
+    if(div_one_movie[0] != undefined){
+        div_box_movies.removeChild(div_one_movie[0])
+    }
+    
     let mov = createMov(movies[itemMovie])
     div_box_movies.appendChild(mov)
     
 }
-
-myMain()
-
-let btn_encontrar = document.getElementById("botao");
-  
-btn_encontrar.onclick = () => {
-    location.reload();
-};
