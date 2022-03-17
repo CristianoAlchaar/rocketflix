@@ -16,30 +16,29 @@ function getApi(url_themoviesdborg){
 
 function createMov(movie){
 
-
     const div_cards = document.createElement('div')
     div_cards.setAttribute('class', 'div-details')
 
-        const div_poster = document.createElement('div')
-        div_poster.setAttribute('class', 'div-poster')
-        const img_poster = document.createElement('img')
-        img_poster.setAttribute('src', `https://image.tmdb.org/t/p/w500${movie.poster_path}`)
+    const div_poster = document.createElement('div')
+    div_poster.setAttribute('class', 'div-poster')
+    const img_poster = document.createElement('img')
+    img_poster.setAttribute('src', `https://image.tmdb.org/t/p/w500${movie.poster_path}`)
 
-        div_poster.appendChild(img_poster)
+    div_poster.appendChild(img_poster)
 
-        const div_box = document.createElement('div')
-        div_box.setAttribute('class', 'div-box')      
-    
-            const div_title = document.createElement('div')
-            div_title.setAttribute('class', 'div-title')
-            div_title.innerText = movie.title
+    const div_box = document.createElement('div')
+    div_box.setAttribute('class', 'div-box')      
 
-            const div_description = document.createElement('div')
-            div_description.setAttribute('class', 'div-description')
-            div_description.innerText = movie.overview
+    const div_title = document.createElement('div')
+    div_title.setAttribute('class', 'div-title')
+    div_title.innerText = movie.title
 
-        div_box.appendChild(div_title)
-        div_box.appendChild(div_description)
+    const div_description = document.createElement('div')
+    div_description.setAttribute('class', 'div-description')
+    div_description.innerText = movie.overview
+
+    div_box.appendChild(div_title)
+    div_box.appendChild(div_description)
 
     div_cards.appendChild(div_poster)
     div_cards.appendChild(div_box)
@@ -49,8 +48,6 @@ function createMov(movie){
 }
 
 function myMain(){
-
-    console.log("oi")
 
     const maxPage = 500
     const maxMovie = 19
@@ -74,7 +71,7 @@ myMain()
 
 function myFunction()
 {
-    var x = document.getElementById("botao");
+    var x = document.getElementById("botao")
     
     x.onclick().myMain()
 
