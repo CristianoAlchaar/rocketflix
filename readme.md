@@ -85,7 +85,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 
 - [x] Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
 - [x] Ter um botão que traga um filme aleatório com poster e descrição do filme.
-- [ ] Se for segunda feira, apresentar uma mensagem e imagem informando que hoje não é dia de assistir filme.
+- [x] Se for segunda feira, apresentar uma mensagem e imagem informando que hoje não é dia de assistir filme.
 
 **Se desafie também:**
 

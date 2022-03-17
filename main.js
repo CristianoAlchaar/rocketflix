@@ -104,6 +104,5 @@ function myMain(string){
     } else {
         let movWork = createMov(movies[itemMovie])
         div_box_movies.appendChild(movWork)
-    } 
-    
+    }     
 }
