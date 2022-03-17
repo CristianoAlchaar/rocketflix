@@ -113,6 +113,16 @@ E também, há esses vídeos que podem ajudar
 - [O DOM é um objeto js](https://youtu.be/UftSB4DaRU4)
 - [Consumir api com axios](https://youtu.be/VM4e37DaskU)
 
+### 📅 Buscas no Google
+
+- [como obter o dia da semana em javascript](https://receitasdecodigo.com.br/jquery/como-obter-o-dia-da-semana-em-javascript)
+- [como fazer evento onclick em JavaScript de um botão html](https://acervolima.com/diferenca-entre-addeventlistener-e-onclick-em-javascript/)
+- [como consumir images da api The Movie Database](https://developers.themoviedb.org/3/getting-started/images)
+- [como usar font do google: Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins?query=Poppins)
+- [como consumir API no Front e no Back-end ](https://www.youtube.com/watch?v=vYlz3SmNXQQ)
+- [documentação da apiThe Movie Database (TMDB)](https://www.themoviedb.org/talk/6230e103414291001a366a76?page=1#6230e103414291001a366a79)
+- [consumir api tmdb.org](https://enlear.academy/create-a-simple-movie-app-in-vanilla-javascript-5811bad69e09)
+
 ---
 
 Feito com 💜 por @douglasabnovato 👋 Contato no Linkedin [de portas abertas](https://www.linkedin.com/in/douglasabnovato/)!
