@@ -6,13 +6,15 @@ const config = {
 }
 
 function getApi(url_themoviesdborg){
+
     let request = new XMLHttpRequest()
 
     request.open("GET", url_themoviesdborg, false)
     request.send() 
 
     return request.responseText
-}
+}    
+     
 
 function createMov(movie){
 

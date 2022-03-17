@@ -91,6 +91,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 
 - [ ] Tornando o site responsivo
 - [ ] Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
+- [ ] Corrigir warning Uncaught ( in promise )
 
 🚀 Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
