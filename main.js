@@ -47,8 +47,35 @@ function createMov(movie){
 
 }
 
+function createGoWork(){
+
+    const div_cards = document.createElement('div')
+    div_cards.setAttribute('class', 'div-details')
+
+    const div_poster = document.createElement('div')
+    div_poster.setAttribute('class', 'div-poster')
+    const img_poster = document.createElement('img')
+    img_poster.setAttribute('src', "./assets/poster.jpg")
+
+    div_poster.appendChild(img_poster)
+
+    const div_box = document.createElement('div')
+    div_box.setAttribute('class', 'div-box')      
+
+    const div_title = document.createElement('div')
+    div_title.setAttribute('class', 'div-title-work')
+    div_title.innerText = "Ops, hoje não é dia de assistir filme. Bora codar! 🚀"
+
+    div_box.appendChild(div_title)
+
+    div_cards.appendChild(div_poster)
+    div_cards.appendChild(div_box)
+
+    return div_cards
+
+}
+
 function myMain(string){
-    console.log(string)
     const maxPage = 500
     const maxMovie = 19
 
@@ -67,8 +94,16 @@ function myMain(string){
     if(div_one_movie[0] != undefined){
         div_box_movies.removeChild(div_one_movie[0])
     }
-    
-    let mov = createMov(movies[itemMovie])
-    div_box_movies.appendChild(mov)
+
+    let semana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
+    let d = new Date();
+
+    if(semana[d.getDay()] == "Segunda-Feira"){
+        let movWork = createGoWork()
+        div_box_movies.appendChild(movWork)
+    } else {
+        let movWork = createMov(movies[itemMovie])
+        div_box_movies.appendChild(movWork)
+    } 
     
 }
