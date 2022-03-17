@@ -48,7 +48,6 @@ function createMov(movie){
 }
 
 function myMain(){
-
     const maxPage = 500
     const maxMovie = 19
 
@@ -67,12 +66,8 @@ function myMain(){
     
 }
 
-myMain()
-
-function myFunction()
-{
-    var x = document.getElementById("botao")
-    
-    x.onclick().myMain()
-
-}
+let btn_encontrar = document.getElementById("botao");
+  
+btn_encontrar.addEventListener("click", () => {
+    myMain()
+})
