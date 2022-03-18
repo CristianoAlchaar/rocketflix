@@ -36,8 +36,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 ---
 
 - Consultar e atender o layout do projeto no [Figma](https://www.figma.com/file/MFamqWCq5nyv2tOs9zRpxV/Basecamp-C%C3%B3digo-Kid---Rocketflix?node-id=3%3A2).
-- Utilizar os assets em `src/assets` para os detalhes do layout.
-- Se precisar de mais informações, consultar o [Notion](https://www.notion.so/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d). 
+- Utilizar os assets em `src/assets` para os detalhes do layout. Ou pode [baixar o template aqui](https://www.notion.so/Desafio-Rocketflix-057fb5bafe7843dc9c094611f89e4657#5b0c799241cf4dabba1aaa1fa125a87f).
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
   <img alt="rocketflix tela inicial" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
