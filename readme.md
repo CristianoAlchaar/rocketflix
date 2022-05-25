@@ -87,11 +87,14 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 - [x] Ter um botão que traga um filme aleatório com poster e descrição do filme.
 - [x] Se for segunda feira, apresentar uma mensagem e imagem informando que hoje não é dia de assistir filme.
 
-**Se desafie também:**
+## 🚀 Próximo passo - Se desafie também 
 
-- [ ] Tornando o site responsivo
-- [ ] Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
-- [ ] Corrigir warning: `Uncaught (in promise)`
+- Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
+- Corrigir warning: `Uncaught (in promise)` 
+- responsividade
+- acessibilidade
+- modo dark / light
+- variação de cores
 
 🚀 Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
