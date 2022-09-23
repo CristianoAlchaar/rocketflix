@@ -18,15 +18,14 @@ body {
 }
 
 .container {
-    width: 60vw;
+    width: 65vw;
     margin: 10vh auto;
 }
 
 .topo .logo {
     width: 88px;
     height: 63px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .topo .logo img {
@@ -45,28 +44,25 @@ body {
 
 .box-movies {
     color: var(--title);
-    margin: 3px;
-    padding: 5px;
+    margin: 15px;
+    padding: 25px;
 }
 
-.div-details {
+.box-movies .div-details {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-right: 3.5rem;
+    justify-content: space-around;
+    gap: .5rem; 
     flex-wrap: wrap;
 }
 
 .box-movies .div-poster {
     margin: 3px;
     padding: 5px;
-    height: 244px;
-    width: 30%;
+    height: 265px;
 }
 
 .box-movies .div-poster img {
-    height: 244px;
-    width: 171px;
+    height: 100%;    
 }
 
 .box-movies .div-box {
@@ -99,7 +95,7 @@ body {
     padding: 5px;
 }
 
-.botao  {
+.botao {
     background: var(--bg-button);
     color: var(--tx-button);
     margin-top: 30px;
