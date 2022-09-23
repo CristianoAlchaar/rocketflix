@@ -5,40 +5,36 @@
     --tx-button: #000000;
     --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
 }
-  
+
 * {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--background);
-    height: 100%;
+    height: 90vh;
     width: 100%;
 }
 
-.container{
-    width: 700px;
-    min-height: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} 
+.container {
+    width: 60vw;
+    margin: 10vh auto;
+}
 
-.topo .logo{
+.topo .logo {
     width: 88px;
     height: 63px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.topo .logo img{
+.topo .logo img {
     width: 88px;
     height: 63px;
 }
 
-.topo .slogan p{
+.topo .slogan p {
     color: var(--title);
     font-size: 40px;
     font-weight: bold;
@@ -47,7 +43,7 @@ body{
     margin-right: auto;
 }
 
-.box-movies{
+.box-movies {
     color: var(--title);
     margin: 3px;
     padding: 5px;
@@ -55,50 +51,50 @@ body{
 
 .div-details {
     display: flex;
-    justify-content: space-between;  
-    gap: 1rem; 
+    justify-content: space-between;
+    gap: 1rem;
     margin-right: 3.5rem;
     flex-wrap: wrap;
 }
 
-.box-movies .div-poster{
+.box-movies .div-poster {
     margin: 3px;
-    padding: 5px;  
-    height: 244px;   
-    width: 30%;    
+    padding: 5px;
+    height: 244px;
+    width: 30%;
 }
 
-.box-movies .div-poster img{
-    height: 244px;   
-    width: 171px;  
+.box-movies .div-poster img {
+    height: 244px;
+    width: 171px;
 }
 
-.box-movies .div-box{
+.box-movies .div-box {
     margin: 3px;
-    padding: 5px;    
+    padding: 5px;
     width: 60%;
 }
 
-.box-movies .div-box .div-title{
+.box-movies .div-box .div-title {
     margin: 0px 3px 3px 3px;
     padding: 0px 5px 5px 5px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.box-movies .div-box .div-title-work{
+.box-movies .div-box .div-title-work {
     margin: 0px 3px 0px 3px;
     padding: 0px 5px 0px 5px;
     font-size: 20px;
     font-weight: bold;
     width: 388px;
 
-    position: absolute;               
-    top: 50%;                         
-    transform: translate(0, -50%); 
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
-.box-movies .div-box .div-description{
+.box-movies .div-box .div-description {
     margin: 3px;
     padding: 5px;
 }
@@ -107,7 +103,7 @@ body{
     width: 171px;
     height: 47px;
     background: var(--bg-button);
-    color: var(--tx-button);    
+    color: var(--tx-button);
     margin-top: 30px;
     margin-bottom: 26px;
     margin-left: auto;
@@ -117,7 +113,7 @@ body{
     justify-content: space-between;
 }
 
-.botao:hover{
+.botao:hover {
     cursor: pointer;
 }
 
@@ -135,14 +131,14 @@ body{
     font-weight: bold;
     text-align: center;
     margin-left: 10px;
-    
+
     position: absolute;
     top: 50%;
     margin-right: 20%;
     transform: translate(50%, -50%)
-} 
+}
 
-.instrucao p{
+.instrucao p {
     color: var(--title);
     width: 381px;
     height: 42px;

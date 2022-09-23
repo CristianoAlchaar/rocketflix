@@ -54,9 +54,11 @@ E também, há esses vídeos que podem ajudar
 
 #### 🚀 Requisitos para o desafio 
 
+Neste desafio você vai construir uma página que exiba aleatóriamente um filme para o usuário. Caso você ainda não tenha feito os cursos do Discover ou queira fazer uma revisão, segue abaixo uma lista dos cursos que podem te ajudar a resolver este desafio.
+
 ##### 🚀 Requisitos Principais
 
-- [ ] 1. Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
+- [ ] 1. Consumir a [API themoviedb.org](https://www.themoviedb.org/)
 - [ ] 2. Ter um botão que traga um filme aleatório com poster e descrição do filme.
 - [ ] 3. Se o filme não existir, apresente uma mensagem e imagem informando que o filme não está disponível.
 
@@ -68,6 +70,8 @@ E também, há esses vídeos que podem ajudar
 #### 🎨 Style Guide
 
 ##### 🎨 Cores 
+
+- [ ] Usar as variáveis
 
 ```css
 :root {
