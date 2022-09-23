@@ -1,20 +1,73 @@
-## 💻 Rocketflix
+<h4 align="center"> 
+	🚧 Rocketflix 🚀
+</h4>
 
-Nesse projeto o objetivo é consumir uma api e exibir em um frontend.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#rocketflix" src="./.github/rocketflix-1.jpg">
+</p>  
 
-### 💡 Desafio Rocketflix
+### 💻 Sobre o desafio
 
----
+Neste desafio você deverá utilizar a API do themoviedb.org para exibir um filme aleatório sempre que clicar em Encontrar Filme.
 
-![Rocketflix.jpg](./.github/rocketflix.gif)
+#### 💻 Techs
 
-Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir um filme aleatório sempre que clicar em Encontrar Filme utilizando um template determnado.
+- Nível de dificuldade: Avançado
+- Tecnologias: HTML, CSS e Javascript.
 
-### 🎨 Style Guide
+#### 💻 Como começar?
 
----
+1 - Use o link do [Figma](https://www.figma.com/file/blXvvh2RnpTsuy0jtltpiw/DD-%2F-Rocketflix-(Copy)?node-id=3%3A2) como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.  
 
-**Cores** 
+2 - Leia com atenção todas as instruções do desafio.
+
+3 - Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
+
+4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)
+
+### 💡 Conteúdos Aplicados
+
+Para construir esse projeto, na trilha Discover há diversas referências que irão contribuir na realização dessa tarefa.
+
+#### 💡 [Guia Estelar de HTML](https://app.rocketseat.com.br/discover/course/o-guia-estelar-de-html?&) 
+O conteúdo esclarece plugin de preview HTML, tags, atributos, semântica, listas, abreviações, listas, representação de código, URLs, diretórios, tabelas, THead, TBody, colgroup, cabeçalho, meta, favicon, meta SEO e meta social. 
+
+#### 💡 [Guia Estelar de CSS](https://app.rocketseat.com.br/discover/course/o-guia-estelar-de-css?&) 
+O conteúdo aborda anatomia, seletores, box model, cascata, especificidade, shorthand, funções, devtools e vendor prefixes. 
+
+#### 💡 [Posicionamento de Foguetes](https://app.rocketseat.com.br/discover/course/posicionando-foguetes?&) 
+Você precisa saber onde os elementos da sua página deverão ser posicionados. Por isso, conhecer como o CSS trabalha com o layout, ou o posicionamento dos elementos na sua página é essencial.
+
+#### 💡 [Guia Estelar de Javascript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script) 
+As aulas deste conjunto abordam tipos de dados, variáveis, funções, manipulação de dados, expressões e aplicabilidade dos recursos. 
+
+#### 💡 [Pilotando com a DOM](https://app.rocketseat.com.br/discover/course/pilotando-com-a-dom?&) 
+O módulo explora atributos e funcionalidades da DOM, getElementById, ByClassName e ByTagName, além de querySelector, querySelectorAll, textContent, innerText, innerHTML, Value, alteração com style, classList, parentElement e parentNode, elementos filhos e irmãos, insertBefore, métodos para adição de eventos via JS.
+
+E também, há esses vídeos que podem ajudar
+
+- 💡 [API ajax fetch axios](https://youtu.be/vYlz3SmNXQQ)
+- 💡 [O DOM é um objeto js](https://youtu.be/UftSB4DaRU4)
+- 💡 [Consumir api com axios](https://youtu.be/VM4e37DaskU)
+
+### 🚀 [Requisitos do projeto](https://efficient-sloth-d85.notion.site/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d#06e6ecb4212447c695dfbe7da61ec551)
+
+#### 🚀 Requisitos para o desafio 
+
+##### 🚀 Requisitos Principais
+
+- [ ] 1. Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
+- [ ] 2. Ter um botão que traga um filme aleatório com poster e descrição do filme.
+- [ ] 3. Se o filme não existir, apresente uma mensagem e imagem informando que o filme não está disponível.
+
+##### 🚀 Requisitos Extras
+
+- [ ] 1. Tornando o site responsivo
+- [ ] 2. Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
+
+#### 🎨 Style Guide
+
+##### 🎨 Cores 
 
 ```css
 :root {
@@ -25,38 +78,27 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 }
 ```
 
-**Fonte**
+##### 🎨 Fonte 
 
-- font-family: Poppins 
-- font-weight: 300, 400 e 500
-- Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
+- [ ] font-family: Poppins 
+- [ ] font-weight: 300, 400 e 500
+- [ ] Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
 
-### 🚀 Layout
-
----
-
-- Consultar e atender o layout do projeto no [Figma](https://www.figma.com/file/MFamqWCq5nyv2tOs9zRpxV/Basecamp-C%C3%B3digo-Kid---Rocketflix?node-id=3%3A2).
-- Utilizar os assets em `src/assets` para os detalhes do layout. 
-- Deixei um [template](https://github.com/douglasabnovato/rocketflix/blob/main/assets/template.rar) dos arquivos para iniciarmos o projeto.
+#### 🎨 Como deve ficar a página ao final?
+ 
+ Neste desafio você deverá utilizar a API do themoviedb.org para exibir um filme aleatório sempre que clicar em Encontrar Filme.
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
-  <img alt="rocketflix tela inicial" title="#rocketflix" src="./.github/rocketflix-1.jpg" width="400px"> 
-  <img alt="rocketflix tela resultado" title="#rocketflix" src="./.github/rocketflix-2.jpg" width="400px"> 
-  <img alt="rocketflix tela não encontrado" title="#rocketflix" src="./.github/rocketflix-3.jpg" width="400px"> 
-  <img alt="rocketflix mobile" title="#rocketflix" src="./.github/rocketflix-4.jpg" height="400px"> 
+  <img alt="rocketflix tela inicial" title="#rocketflix" src="./.github/rocketflix.gif">
 </p> 
 
-### 🚀 Techs
+🚀 Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
----
+### 📅 Entrega
 
-- HTML
-- CSS
-- JavaScript
+Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
-### ✅ Construindo o projeto
-
----
+#### 📅 Tarefas
 
 - [x] Criar uma conta no [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
 - [x] Após verificar o e-mail, faça o login e [acesse este link](https://www.themoviedb.org/settings/api/request)
@@ -70,6 +112,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
 - [x] Após baixar o template terá um arquivo chamado `api.example`, cole a sua API KEY gerada no arquivo e renomeie o arquivo para `api.js`
 - [x] Adicionar a lógica do desafio no arquivo `main.js`
 - [x] Informações de interesse da API: data.results
+
 ````javascript
     /**
      * original_title: "Blacklight"
@@ -81,42 +124,7 @@ Deverá utilizar a API do [themoviedb.org](http://themoviedb.org/) para exibir u
      */
 ````
 
-**Requisitos para o desafio:**
-
-- [x] Consumir a API do [https://www.themoviedb.org/](https://www.themoviedb.org/)
-- [x] Ter um botão que traga um filme aleatório com poster e descrição do filme.
-- [x] Se for segunda feira, apresentar uma mensagem e imagem informando que hoje não é dia de assistir filme.
-
-## 🚀 Próximo passo - Se desafie também 
-
-- Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
-- Corrigir warning: `Uncaught (in promise)` 
-- responsividade
-- acessibilidade
-- modo dark / light
-- variação de cores
-
-🚀 Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
-
-### 📅 Referências
-
----
-
-Para construir esse projeto, na trilha Discover há diversas referências que irão contribuir na realização dessa tarefa.
-
-- [O Guia estelar de HTML](https://app.rocketseat.com.br/node/o-guia-estelar-de-html)
-- [O Guia estelar de CSS](https://app.rocketseat.com.br/node/o-guia-estelar-de-css)
-- [O Guia estelar de JavaScript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script)
-- [Posicionando Foguetes](https://app.rocketseat.com.br/node/posicionando-foguetes)
-- [Pilotando com a DOM](https://app.rocketseat.com.br/node/pilotando-com-a-dom)
-
-E também, há esses vídeos que podem ajudar
-
-- [API ajax fetch axios](https://youtu.be/vYlz3SmNXQQ)
-- [O DOM é um objeto js](https://youtu.be/UftSB4DaRU4)
-- [Consumir api com axios](https://youtu.be/VM4e37DaskU)
-
-### 📅 Buscas no Google
+#### 📅 Buscas no Google
 
 - [como obter o dia da semana em javascript](https://receitasdecodigo.com.br/jquery/como-obter-o-dia-da-semana-em-javascript)
 - [como fazer evento onclick em JavaScript de um botão html](https://acervolima.com/diferenca-entre-addeventlistener-e-onclick-em-javascript/)
@@ -126,6 +134,26 @@ E também, há esses vídeos que podem ajudar
 - [documentação da apiThe Movie Database (TMDB)](https://www.themoviedb.org/talk/6230e103414291001a366a76?page=1#6230e103414291001a366a79)
 - [consumir api tmdb.org](https://enlear.academy/create-a-simple-movie-app-in-vanilla-javascript-5811bad69e09)
 
----
+#### 📅 Telas
 
-Feito com 💜 por @douglasabnovato 👋 Contato no Linkedin [de portas abertas](https://www.linkedin.com/in/douglasabnovato/)!
+- Desktop, evolução do layout:
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/rocketflix-4.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/rocketflix-3.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/rocketflix-2.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/rocketflix-1.jpg">
+</p>
+
+## 🚀 Próximo passo 
+
+- [ ] Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
+- [ ] Corrigir warning: `Uncaught (in promise)` 
+- [ ] responsividade
+- [ ] acessibilidade
+- [ ] modo dark / light
+- [ ] variação de cores
+
+Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+ 
+Fonte do projeto na [Rocketseat](https://www.rocketseat.com.br/). 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!
