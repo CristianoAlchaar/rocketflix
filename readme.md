@@ -152,7 +152,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 ## 🚀 Próximo passo 
 
 - [ ] Exibindo mais informações sobre os filmes que vem da API (Data de lançamento, atores...)
-- [ ] Corrigir warning: `Uncaught (in promise)` 
+- [x] Corrigir warning: `Uncaught (in promise)` 
 - [ ] responsividade
 - [ ] acessibilidade
 - [ ] modo dark / light
